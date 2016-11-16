@@ -1,0 +1,8 @@
+name: "vexflow_stub"
+version: "0.1.0-alpha.1"
+description: >
+  Provides stubs for using the VexFlow music rendering library in Dartlang
+author: Ennis Massey <ennisbaradine@gmail.com>
+homepage: "https://github.com/MicroTransactionsMatterToo/vexflow_stub"
+dependencies:
+  js: ^0.6.0
