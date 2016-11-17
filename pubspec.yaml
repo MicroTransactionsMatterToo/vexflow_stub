@@ -6,3 +6,6 @@ author: Ennis Massey <ennisbaradine@gmail.com>
 homepage: "https://github.com/MicroTransactionsMatterToo/vexflow_stub"
 dependencies:
   js: ^0.6.0
+
+dev_dependencies:
+  browser: any
