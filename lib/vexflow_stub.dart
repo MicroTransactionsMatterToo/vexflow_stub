@@ -344,7 +344,7 @@ class BarNote extends Note {
 
 // Module Barline
 @JS("Vex.Flow.Barline.type")
-class type {
+class barType {
   external static num get SINGLE;
   external static num get DOUBLE;
   external static num get END;
@@ -597,7 +597,7 @@ class Curve {
 
 // Module Curve
 @JS("Vex.Flow.Curve.Position")
-class Position {
+class CurvePosition {
   external static num get NEAR_HEAD;
   external static num get NEAR_TOP;
 }
@@ -1205,7 +1205,7 @@ class Repetition extends StaveModifier {
 
 // Module Repetition
 @JS("Vex.Flow.Repetition.type")
-class type {
+class repeatType {
   external static num get NONE;
   external static num get CODA_LEFT;
   external static num get CODA_RIGHT;
@@ -1306,7 +1306,7 @@ class StaveConnector {
 
 // Module StaveConnector
 @JS("Vex.Flow.StaveConnector.type")
-class type {
+class connectorType {
   external static num get SINGLE_RIGHT;
   external static num get SINGLE_LEFT;
   external static num get SINGLE;
@@ -1346,7 +1346,7 @@ class StaveHairpin {
 
 // Module StaveHairpin
 @JS("Vex.Flow.StaveHairpin.type")
-class type {
+class hairPinType {
   external static num get CRESC;
   external static num get DECRESC;
 }
@@ -2104,7 +2104,7 @@ class Volta extends StaveModifier {
 
 // Module Volta
 @JS("Vex.Flow.Volta.type")
-class type {
+class voltaType {
   external static num get NONE;
   external static num get BEGIN;
   external static num get MID;
